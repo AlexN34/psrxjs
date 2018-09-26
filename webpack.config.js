@@ -2,7 +2,7 @@ module.exports = {
   entry: "./main",
   output: { filename: "app.js" },
   module: {
-    loaders: [
+    rules: [
       {
         test: /.ts$/,
         loader: "ts-loader"
@@ -10,6 +10,6 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ["", ".ts", ".js"]
+    extensions: [".ts", ".js"]
   }
 };
