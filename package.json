@@ -1,0 +1,23 @@
+{
+  "name": "psrxjs5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --watch --inline",
+    "postinstall": "typings install"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier-tslint": "^0.4.0",
+    "ts-loader": "^5.2.1",
+    "typescript": "^3.0.3",
+    "typings": "^2.1.1",
+    "webpack": "^4.20.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "rxjs": "^6.3.3"
+  }
+}
